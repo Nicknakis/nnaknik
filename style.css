@@ -61,15 +61,14 @@ section h2 {
 
 /* Profile image */
 section#about img {
-     border-radius: 50%;
-    width: 180px;
-    height: 180px;
-    object-fit: cover;
-    object-position: center;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
-    margin-bottom: 20px;
+    border-radius: 50%; /* Ensures the image is circular */
+    width: 120px; /* Reduces the size of the image */
+    height: 120px; /* Matches width for a perfect circle */
+    object-fit: cover; /* Maintains aspect ratio and crops the image if necessary */
+    object-position: center; /* Centers the focus of the image */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Adds a soft shadow */
+    margin-bottom: 20px; /* Adds spacing below the image */
 }
-
 
 
 /* Footer styles */
