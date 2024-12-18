@@ -59,17 +59,18 @@ section h2 {
     margin-bottom: 1rem;
 }
 
+
 /* Profile image */
-/* Profile image */
-section#about img {
+.profile-img {
     border-radius: 50%; /* Ensures a circular shape */
-    width: 50px; /* Smaller size for the image */
-    height: 50px; /* Matches width for a perfect circle */
+    width: 100px; /* Smaller size for the image */
+    height: 100px; /* Matches width for a perfect circle */
     object-fit: cover; /* Maintains aspect ratio and crops if necessary */
     object-position: center; /* Centers the focus on the face or subject */
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Adds a soft shadow for a professional look */
     margin-bottom: 20px; /* Adds space below the image */
 }
+
 
 
 
