@@ -1,36 +1,101 @@
+/* Global styles */
 body {
-    font-family: Arial, sans-serif;
+    font-family: 'Helvetica Neue', Arial, sans-serif;
     margin: 0;
     padding: 0;
-    background-color: #f9f9f9;
+    background-color: #f4f4f9;
     color: #333;
+    line-height: 1.6;
 }
+
+/* Header styles */
 header {
     background-color: #007acc;
     color: white;
-    padding: 2rem;
+    padding: 3rem 2rem;
     text-align: center;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
 }
+header h1 {
+    font-size: 2.5rem;
+    margin: 0;
+}
+
+/* Navigation styles */
 nav {
     text-align: center;
-    margin: 1rem 0;
+    margin: 1.5rem 0;
 }
 nav a {
-    margin: 0 1rem;
+    margin: 0 1.5rem;
     color: #007acc;
     text-decoration: none;
     font-weight: bold;
+    font-size: 1.1rem;
+    transition: color 0.3s ease;
 }
+nav a:hover {
+    color: #005f8f;
+}
+
+/* Main content styles */
 main {
-    padding: 2rem;
-    max-width: 800px;
-    margin: auto;
+    padding: 3rem 2rem;
+    max-width: 900px;
+    margin: 2rem auto;
+    background-color: white;
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
 }
+
+/* Section styles */
 section {
-    margin-bottom: 2rem;
+    margin-bottom: 2.5rem;
 }
+
+section h2 {
+    font-size: 2rem;
+    color: #007acc;
+    margin-bottom: 1rem;
+}
+
+/* Profile image */
+section#about img {
+    border-radius: 50%;
+    width: 180px;
+    height: 180px;
+    object-fit: cover;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+/* Footer styles */
 footer {
     background: #ddd;
-    padding: 1rem;
+    padding: 1.5rem;
     text-align: center;
+    margin-top: 3rem;
+    font-size: 1.1rem;
+}
+footer a {
+    color: #007acc;
+    text-decoration: none;
+    font-weight: bold;
+    transition: color 0.3s ease;
+}
+footer a:hover {
+    color: #005f8f;
+}
+
+/* Responsive styles */
+@media (max-width: 768px) {
+    header h1 {
+        font-size: 2rem;
+    }
+    main {
+        padding: 2rem;
+    }
+    nav a {
+        margin: 0 1rem;
+        font-size: 1rem;
+    }
 }
