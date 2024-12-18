@@ -61,12 +61,16 @@ section h2 {
 
 /* Profile image */
 section#about img {
-    border-radius: 50%;
+     border-radius: 50%;
     width: 180px;
     height: 180px;
     object-fit: cover;
+    object-position: center;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    margin-bottom: 20px;
 }
+
+
 
 /* Footer styles */
 footer {
