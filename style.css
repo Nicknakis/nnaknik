@@ -63,8 +63,8 @@ section h2 {
 /* Profile image */
 .profile-img {
     border-radius: 50%; /* Ensures a circular shape */
-    width: 300px; /* Smaller size for the image */
-    height: 300px; /* Matches width for a perfect circle */
+    width: 250px; /* Smaller size for the image */
+    height: 250px; /* Matches width for a perfect circle */
     object-fit: cover; /* Maintains aspect ratio and crops if necessary */
     object-position: center; /* Centers the focus on the face or subject */
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Adds a soft shadow for a professional look */
