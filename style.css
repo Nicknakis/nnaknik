@@ -133,6 +133,7 @@ ul { padding: 0; list-style: none; margin: 0; }
 .hero {
   padding: clamp(3rem, 9vw, 6rem) 0 clamp(2rem, 6vw, 4rem);
   position: relative;
+  min-height: 520px;
 }
 .eyebrow {
   font-family: var(--font-mono);
@@ -234,7 +235,10 @@ ul { padding: 0; list-style: none; margin: 0; }
 .hero-figure:hover img {
   filter: drop-shadow(0 12px 28px rgba(26,24,20,.14));
 }
-@media (max-width: 980px) { .hero-figure { display: none; } }
+@media (max-width: 1080px) {
+  .hero-figure { display: none; }
+  .hero { min-height: auto; }
+}
 
 /* ---------- Social row ---------- */
 .socials {
@@ -288,7 +292,7 @@ ul { padding: 0; list-style: none; margin: 0; }
   height: 260px;
   border-radius: 50%;
   object-fit: cover;
-  object-position: center 17%;
+  object-position: center 32%;
   box-shadow:
     0 1px 0 rgba(255,255,255,.6) inset,
     0 6px 22px rgba(26,24,20,.18),
