@@ -86,7 +86,7 @@ ul { padding: 0; list-style: none; margin: 0; }
   color: var(--ink);
   white-space: nowrap;
 }
-.brand span { color: var(--accent-2); }
+.brand span { color: var(--ink); }
 .topnav {
   display: flex;
   gap: 1.4rem;
@@ -163,10 +163,9 @@ ul { padding: 0; list-style: none; margin: 0; }
   color: var(--ink);
 }
 .hero h1 em {
-  font-style: italic;
-  font-variation-settings: "opsz" 144, "SOFT" 100;
-  font-weight: 300;
-  color: var(--accent);
+  font-style: inherit;
+  font-weight: inherit;
+  color: inherit;
 }
 .hero-role {
   font-size: 1.15rem;
@@ -292,7 +291,7 @@ ul { padding: 0; list-style: none; margin: 0; }
   height: 260px;
   border-radius: 50%;
   object-fit: cover;
-  object-position: center 32%;
+  object-position: center 50%;
   box-shadow:
     0 1px 0 rgba(255,255,255,.6) inset,
     0 6px 22px rgba(26,24,20,.18),
